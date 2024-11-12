@@ -197,32 +197,18 @@ button,button:active{
   color:#fff;
   box-shadow: 0 0 0  rgba(13, 109, 253, 0);
  }
-
-.menu-bg-fixed .menu-bg{
-  backdrop-filter: blur(35px);
-}
-.menu-bg-fixed {
-	position: fixed;
-	top: -35px;
-	width: 100%;
-	z-index: 99999;
-	left: 0;
-	right: 0;
-	margin: 0 auto;
+.menu-bg{
+  background-color: #071827;
 }
 .nav-item > a {
 	font-weight: 400;
 	font-size: 18px;
 	color: #fff;
+  padding:10px;
 	transition: 0.5s;
 }
 .nav-item > a:hover,.nav-item > a:focus,.dropdown-menu ul li a:hover{
-  background: linear-gradient(90deg, #277BF5 0%, #1CD691 100.01%);
-  background-clip: border-box;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-text-fill-color: transparent;
+ color:#DFCD41;
 }
 .nav-link.dropdown-toggle.show{
   background: linear-gradient(90deg, #277BF5 0%, #1CD691 100.01%);
@@ -286,8 +272,9 @@ a.nav-link.dropdown-toggle i{
 	position: sticky;
 	left: 0;
 	right: 0;
-	top: 10px;
+	top:0px;
 	margin-bottom: -101px;
+  z-index: 999;
 }
 .border-gradient::after {
 	background:linear-gradient(263.49deg, #6902E7 14.4%, #2EA8F2 100%);
@@ -507,17 +494,27 @@ a.nav-link.dropdown-toggle i{
 .shear-icon-list ul li{
   height:60px;
   width:60px;
+  cursor: pointer;
 }
- 
+.shear-icon-list ul li a{
+  display: block;
+}
 .border-rounded-custom:hover{
   background: linear-gradient(263.49deg, rgba(105, 2, 231, 0.4) 14.4%, rgba(46, 168, 242, 0.4) 100%);
-  border: transparent;
+  border-color: #fff;
 }
 .shear-icon-list ul li i{
   color:#fff;
   font-size: 25px;
 }
-.shear-icon-list ul li:after{
+.listed ul li a{
+  padding:8px 20px;
+  font-weight: 700;
+  border: 1px solid transparent;
+  font-size:28px;
+  font-family: "Red Rose", serif;
+}
+.border-rounded-custom:after{
   content: '';
   position: absolute;
   top: -1px;
@@ -528,4 +525,8 @@ a.nav-link.dropdown-toggle i{
   border-radius:10px;
   background: linear-gradient(263.49deg, rgba(105, 2, 231, 0.4) 14.4%, rgba(46, 168, 242, 0.4) 100%);
 }
- 
+ .nav-link.active{
+  background-color:#4271EE;
+  border-radius: 5px;
+  color:#fff !important;
+ }

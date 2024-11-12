@@ -1,5 +1,14 @@
 
 jQuery(document).ready(function ($) {
+    // menu bg add
+    $(window).on("scroll", function () {
+     
+      if ($(window).scrollTop() > 50) {
+          $(".header-area").addClass("menu-bg");
+      } else {
+          $(".header-area").removeClass("menu-bg");
+      }
+  });
  
     $(document).on("click", function (event) {
       const $div = $("#outside-click");
