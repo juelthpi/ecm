@@ -247,23 +247,78 @@ a.nav-link.dropdown-toggle i{
  .ellipse-1{
   background: #2EA8F2;
   left: 0;
-  top: 275px;
+  top: 290px;
  }
  .ellipse-2{
   background: #2EA8F2;
   right: 0;
-  top: 275px;
+  top: 290px;
+ }
+ .ellipse-10{
+  background: #2EA8F2;
+  right: 0;
+  top:-5%;
  }
  .ellipse-3{
   left: 0;
-  top:1050px;
+  top:-10%;
   background: #6902E7;
  }
+ .ellipse-8{
+  left: 0;
+  top:-10%;
+  background: #6902E7;
+ }
+ .ellipse-11{
+  left: 0;
+  top:-15%;
+  background: #6902E7;
+ }
+ .ellipse-12{
+  right: 0;
+  top:15%;
+  background: #6902E7;
+ }
+ .ellipse-14{
+  right: 0;
+  top:-15%;
+  background: #6902E7;
+ }
+ .ellipse-5{
+  left: 0;
+  top:-10%;
+  background: #2EA8F2;
+ }
+ .ellipse-13{
+  left: 0;
+  top:-10%;
+  background: #2EA8F2;
+ }
  
+ .ellipse-6{
+  background: #6902E7;
+  right: 0;
+  top:-10%;
+ }
+ .ellipse-7{
+  background: #6902E7;
+  right: 0;
+  top:15%;
+ }
+ .ellipse-9{
+  background: #6902E7;
+  right: 0;
+  top:15%;
+ }
+ .ellipse-18{
+  background: #2EA8F2;
+  right: 0;
+  top:-10%;
+ }
  .ellipse-4{
   background: #2EA8F2;
   right: 0;
-  top:1050px;
+  top:-10%;
  }
  .chart-thumbnail img{
   max-width:500px;
@@ -766,4 +821,11 @@ a.nav-link.dropdown-toggle i{
   font-size: 22px;
   font-family: "Red Rose", serif;
   font-weight: 700;
+}
+.about-thumbnail img{
+  max-width: 400px;
+}
+.ptb-70{
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
