@@ -63,8 +63,9 @@ h1,h2,h3,h4,h5,h6{
   background: linear-gradient(0deg, #6902E7 14.4%, #2EA8F2 100%);
 }
 .primary-btn i,.secondary-btn i{
-  font-size: 15px;
+  font-size: 18px;
   color:#fff;
+  font-weight: 700;
 }
 .primary-btn img,.secondary-btn img{
   width: 20px;
@@ -272,6 +273,7 @@ a.nav-link.dropdown-toggle i{
 	position: sticky;
 	left: 0;
 	right: 0;
+  padding: 10px 0;
 	top:0px;
 	margin-bottom: -101px;
   z-index: 999;
@@ -726,4 +728,42 @@ a.nav-link.dropdown-toggle i{
   font-size:40px;
   font-weight: 700;
   color: #FFFFFF1A;
+}
+.accordion-body{
+  padding-top: 0;
+}
+.accordion-button{
+  /* background: linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0) 100%); */
+  background-color: #0D1620;
+  border: none !important;
+  border-radius:20px !important;
+  color:#fff;
+  outline: none !important;
+  font-family: "Red Rose", serif;
+  font-size:28px;
+  font-weight: 700;
+
+}
+.accordion-button:not(.collapsed){
+  color:#fff;
+}
+.accordion-item{
+  border: none !important;
+  border-radius: 20px !important;
+  background: transparent;
+  outline: none !important;
+}
+.accordion-button:not(.collapsed) {
+ 
+	background-color:transparent;
+	box-shadow:0 0 0 0 transparent;
+}
+.accordion-button:after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+.whitepaper-faq ul li a{
+  padding: 12px 25px;
+  font-size: 22px;
+  font-family: "Red Rose", serif;
+  font-weight: 700;
 }
