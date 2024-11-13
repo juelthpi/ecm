@@ -47,6 +47,8 @@ h1,h2,h3,h4,h5,h6{
   align-items: center;
   gap: 10px;
 	text-transform: capitalize;
+  position: relative;
+  z-index: 9;
 }
 .border-gradient:hover{
   background: linear-gradient(263.49deg, #6902E7 14.4%, #2EA8F2 100%);
@@ -241,6 +243,7 @@ a.nav-link.dropdown-toggle i{
   height: 400px;
   width: 400px;
   z-index: -2;
+  /* z-index: 2; */
   opacity: 0.12;
   filter: blur(200px);
  }
@@ -484,7 +487,7 @@ a.nav-link.dropdown-toggle i{
   background-image: url('../images/bg/1.png');
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 .bg-2{
   background-image: url('../images/bg/2.png');
@@ -828,4 +831,10 @@ a.nav-link.dropdown-toggle i{
 .ptb-70{
   padding-top: 70px;
   padding-bottom: 70px;
+}
+.about-section{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background: url('assets/images/bg/2.png');
 }
