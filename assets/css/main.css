@@ -611,9 +611,7 @@ a.nav-link.dropdown-toggle i{
   background: linear-gradient(263.49deg, rgba(105, 2, 231, 0.4) 14.4%, rgba(46, 168, 242, 0.4) 100%);
 }
  .nav-link.active{
-  /* background: linear-gradient(263.49deg, #6902E7 14.4%, #2EA8F2 100%); */
-  border-bottom: 1px solid #fff;
-  color:#fff !important;
+  color:#DFCD41 !important;
  }
  .social-menu ul li a.primary-btn{
   padding: 0;
@@ -900,8 +898,12 @@ a.nav-link.dropdown-toggle i{
 .buy-ecm-icon img{
   transition: 0.2s;
 }
-.card-image:hover .buy-ecm-icon img,.benefit-card:hover .benefits-logo img{
-  transform: scale(1.02); /* Zoomed-in size */
+.buy-ecm-icon img,.benefits-logo img,.platform-logo img{
+  transition:1s;
+}
+.card-image:hover .buy-ecm-icon img,.benefit-card:hover .benefits-logo img,.card-image:hover .platform-logo img{
+  transform: scale(1.08); /* Zoomed-in size */
+ 
 }
 .pb-70{
   padding-bottom: 70px;
@@ -931,3 +933,38 @@ a.nav-link.dropdown-toggle i{
 .pb-50{
   padding-bottom: 50px;
 }
+.xl-p-20{
+  padding: 20px !important;
+  font-size: 24px !important;
+  border-radius: 40px;
+}
+.ecm-header ul li p{
+  font-size: 22px;
+}
+
+.hover-gradient:hover{
+  background: linear-gradient(263.49deg, rgba(105, 2, 231, 0.4) 14.4%, rgba(46, 168, 242, 0.4) 100%);
+  border-radius: 32px;
+  overflow: hidden;
+}
+ .mt-50{
+  margin-top: 50px;
+ }
+ .ico-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-image: url(../images/bg/line-bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  z-index: 0;
+}
+ .ico-section{
+  z-index: 1;
+  position: relative;
+ }
