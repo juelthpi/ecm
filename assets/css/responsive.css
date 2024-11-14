@@ -48,8 +48,14 @@
   .roadmap-item{
     max-width: 48%;
   }
+  .roadmap-item:nth-child(even) .roadmap-item-inner::after{
+    display: none;
+  }
 }
 @media screen and (max-width: 991px) {
+  .nav-item > a{
+    padding: 10px;
+  }
  
   .navbar-collapse {
     margin-top: 25px;
@@ -117,6 +123,9 @@
   .mt-70 {
     margin-top: 50px;
   }
+  .header-right {
+    margin-top: 25px;
+  }
 }
 @media screen and (max-width:767px) {
   .roadmap-item-inner::after{
@@ -145,7 +154,7 @@
     line-height:28px;
   }
   .small-card-left, .small-card-right {
-    bottom: -38%;
+    bottom: -52%;
   }
   .primary-btn, .secondary-btn {
     padding: 10px 24px;
@@ -207,10 +216,16 @@
   .social-menu ul li a i {
     font-size: 15px;
   }
+  .hero-thumbnails{
+    margin-top: 40px;
+  }
  
  
 }
 @media screen and (max-width:480px) {
+  .about-thumbnail img,.ecm-chart-text img,.chart-thumbnail img {
+    max-width: 300px;
+  }
   .p-30 {
     padding: 20px;
   }
@@ -254,6 +269,12 @@
   }
   body{
     overflow-x: hidden !important;
+  }
+  .ico-progress .progress {
+    height: 36px;
+  }
+  .footer-subscribe {
+    max-width: 310px;
   }
 }
 

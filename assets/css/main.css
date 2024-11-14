@@ -849,8 +849,8 @@ a.nav-link.dropdown-toggle i{
 .about-section{
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background: url('assets/images/bg/2.png');
+  background-size: cover;
+  background: url('../images/bg/2.png');
 }
 @keyframes moveDown {
   0% {
@@ -861,12 +861,12 @@ a.nav-link.dropdown-toggle i{
   }
 }
 .small-card-right{
-  animation: rotate 2s linear infinite alternate;
+  animation: rotate 6s linear infinite alternate;
 }
 .small-card-left{
   /* animation: moveDown 2s ease-in-out infinite alternate; */
   /* animation: rotate 2s linear infinite alternate; */
-  animation: rotate 2s linear infinite alternate;
+  animation: rotate 6s linear infinite alternate;
 }
 @keyframes rotate {
   0% {
@@ -892,4 +892,29 @@ a.nav-link.dropdown-toggle i{
 }
 .card-image:hover .buy-ecm-icon img,.benefit-card:hover .benefits-logo img{
   transform: scale(1.02); /* Zoomed-in size */
+}
+.pb-70{
+  padding-bottom: 70px;
+}
+.pb-100{
+  padding-bottom: 100px;
+}
+.modal-content {
+	background: #0B121C;
+	padding: 20px;
+  border-radius: 32px;
+}
+.modal-header span i{
+  color: #fff;
+  font-size: 26px;
+  opacity: 1;
+}
+.modal-header{
+  border: none;
+}
+.modal-body .roadmap-item-inner:after{
+  display: none;
+}
+.modal{
+  backdrop-filter: blur(4px);
 }
