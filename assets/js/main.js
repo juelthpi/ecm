@@ -17,9 +17,6 @@ jQuery(document).ready(function ($) {
         $navbarText.removeClass("show");
       }
     });
-    
-
-  // menu bg add
     $(window).on('scroll', function() {
       if ($(window).scrollTop() > 300) {
           $('header').addClass('menu-bg-fixed');
@@ -27,7 +24,6 @@ jQuery(document).ready(function ($) {
           $('header').removeClass('menu-bg-fixed');
       }
   });
- 
- 
+
 })
  

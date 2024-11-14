@@ -3,10 +3,6 @@
   .navbar-nav {
     gap:15px;
   }
-  .upcoming-label {
-    right: 2%;
-    top: 10px;
-  }
 }
  
 @media screen and (max-width:1280px) {
@@ -15,7 +11,6 @@
     padding-right: 20px;
   }
   
- 
 }
 @media screen and (max-width:1199px) {
   .roadmap-item:nth-child(odd) .roadmap-item-inner::after {
@@ -154,7 +149,7 @@
     line-height:28px;
   }
   .small-card-left, .small-card-right {
-    bottom: -52%;
+    bottom: -42%;
   }
   .primary-btn, .secondary-btn {
     padding: 10px 24px;
@@ -265,7 +260,8 @@
   .header-area {
     position: sticky;
     padding: 0px 0;
-    top: 20px;
+    top: 0px;
+    padding-top: 26px;
   }
   body{
     overflow-x: hidden !important;
@@ -275,6 +271,15 @@
   }
   .footer-subscribe {
     max-width: 310px;
+  }
+  .modal{
+    width: 98%;
+  }
+  .benefits-tag ul li p{
+    font-size: 14px;
+  }
+  .learn-more-section{
+    overflow: hidden;
   }
 }
 

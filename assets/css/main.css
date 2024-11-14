@@ -210,8 +210,10 @@ button,button:active{
   color:#fff;
   box-shadow: 0 0 0  rgba(13, 109, 253, 0);
  }
-.menu-bg{
-  background-color: #071827;
+ .menu-bg {
+	/* background-color: #071827; */
+	backdrop-filter: blur(73px);
+	border-bottom: 1px solid #242323;
 }
 .nav-item > a {
 	font-weight: 400;
@@ -261,6 +263,14 @@ a.nav-link.dropdown-toggle i{
   background: #2EA8F2;
   left: 0;
   top: 290px;
+ }
+ .ellipse-20{
+  background: #2EA8F2;
+  left: 0;
+  top:-10%;
+  right: 0;
+  backdrop-filter:800px;
+  margin: auto;
  }
  .ellipse-2{
   background: #2EA8F2;
@@ -321,7 +331,7 @@ a.nav-link.dropdown-toggle i{
  .ellipse-9{
   background: #6902E7;
   right: 0;
-  top:15%;
+  top:60%;
  }
  .ellipse-18{
   background: #2EA8F2;
@@ -846,7 +856,7 @@ a.nav-link.dropdown-toggle i{
   padding-top: 70px;
   padding-bottom: 70px;
 }
-.about-section{
+.about-section,.ecm-chart-section{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -917,4 +927,7 @@ a.nav-link.dropdown-toggle i{
 }
 .modal{
   backdrop-filter: blur(4px);
+}
+.pb-50{
+  padding-bottom: 50px;
 }
