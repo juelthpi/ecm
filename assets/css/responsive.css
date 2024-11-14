@@ -247,8 +247,10 @@
     overflow: hidden;
     width: 300px
   }
-  html{
-    overflow-x: hidden !important;
+  .header-area {
+    position: sticky;
+    padding: 0px 0;
+    top: 20px;
   }
   body{
     overflow-x: hidden !important;
