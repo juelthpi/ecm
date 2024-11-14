@@ -214,6 +214,9 @@
   .hero-thumbnails{
     margin-top: 40px;
   }
+  .chart-thumbnail{
+    margin-top: 40px;
+  }
  
  
 }
@@ -278,7 +281,7 @@
   .benefits-tag ul li p{
     font-size: 14px;
   }
-  .learn-more-section{
+  .learn-more-section,.ecm-chart-section{
     overflow: hidden;
   }
   .xl-p-20{

@@ -50,6 +50,9 @@ h1,h2,h3,h4,h5,h6{
   position: relative;
   z-index: 9;
 }
+.secondary-btn{
+  padding: 13px 36px;
+}
 .border-gradient:hover{
   /* background: linear-gradient(263.49deg, #6902E7 14.4%, #2EA8F2 100%); */
   border: 1px solid transparent;
