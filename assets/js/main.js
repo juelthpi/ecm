@@ -1,14 +1,13 @@
 
 jQuery(document).ready(function ($) {
     // menu bg add
-    $(window).on("scroll", function () {
-     
+    function checkScroll() {
       if ($(window).scrollTop() > 50) {
           $(".header-area").addClass("menu-bg");
       } else {
           $(".header-area").removeClass("menu-bg");
       }
-  });
+    }
  
     $(document).on("click", function (event) {
       const $div = $("#outside-click");
@@ -23,7 +22,16 @@ jQuery(document).ready(function ($) {
       } else {
           $('header').removeClass('menu-bg-fixed');
       }
-  });
+    });
+    // Run on page load
+    $(document).ready(function () {
+      checkScroll();
+    });
+
+    // Run on scroll
+    $(window).on("scroll", function () {
+      checkScroll();
+    });
 
 })
  

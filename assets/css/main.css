@@ -457,7 +457,7 @@ a.nav-link.dropdown-toggle i{
 	border-radius: 30px;
 }
 .ico-progress .progress {
-	height:42px;
+	height:36px;
   background: #FFFFFF1A;
 	border-radius: 30px;
 }
@@ -937,8 +937,8 @@ a.nav-link.dropdown-toggle i{
   padding-bottom: 50px;
 }
 .xl-p-20{
-  padding: 20px !important;
-  font-size: 24px !important;
+  padding:14px !important;
+  font-size: 22px !important;
   border-radius: 40px;
 }
 .ecm-header ul li p{

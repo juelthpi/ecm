@@ -270,7 +270,7 @@
     overflow-x: hidden !important;
   }
   .ico-progress .progress {
-    height: 36px;
+    height: 30px;
   }
   .footer-subscribe {
     max-width: 310px;
@@ -284,9 +284,9 @@
   .learn-more-section,.ecm-chart-section{
     overflow: hidden;
   }
-  .xl-p-20{
-    padding:16px !important;
-    font-size:20px !important;
+  .xl-p-20 {
+    padding: 10px !important;
+    font-size: 18px !important;
   }
 }
 
