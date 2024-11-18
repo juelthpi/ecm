@@ -13,7 +13,20 @@ button{
   outline:none;
   
 }
- 
+ .input-group input{
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFFB2;
+ }
+ .input-group input::placeholder{
+  opacity: 1;
+ }
+ .input-group input:focus{
+  color:#fff;
+ }
 .form-control:focus {
   border-color:#fff;
   background-color: transparent;
@@ -426,7 +439,56 @@ a.nav-link.dropdown-toggle i{
 	border-radius:20px;
 	background: linear-gradient(263.49deg, rgba(105, 2, 231, 0.16) 14.4%, rgba(46, 168, 242, 0.4) 100%);
 }
+.border-gradient-3 {
+	border-radius:10px;
+	background: #0B121C;
+	border: 2px solid transparent;
+	background-clip: padding-box;
+	position: relative;
+  height: 100%;
+  padding:8px 12px;
+}
+.border-gradient-3::after {
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	right: -2px;
+  z-index: -5;
+	bottom: -2px;
+	border-radius:10px;
+	background: linear-gradient(263.49deg, rgba(105, 2, 231, 0.16) 14.4%, rgba(46, 168, 242, 0.4) 100%);
+}
+.border-gradient-4 {
+	border-radius:10px;
+	background: #0B121C;
+	border: 2px solid transparent;
+	background-clip: padding-box;
+	position: relative;
+  height: 100%;
+  padding:8px 12px;
+}
+
+.border-gradient-4::after {
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	right: -2px;
+  z-index: -5;
+	bottom: -2px;
+	border-radius:10px;
+	background:  linear-gradient(263.49deg, rgba(105, 2, 231, 0.4) 14.4%, #2EA8F2 100%);
+}
+ .text-copy-btn{
+  background: linear-gradient(263.49deg, #6902E7 14.4%, #2EA8F2 100%);
+  height: 32px;
+  width: 32px;
+  border-radius: 50% !important;
+  color: #fff;
+  font-size: 15px;
  
+ }
 .hero-section{
   background-image: url('../images/bg/1.png');
   background-repeat: no-repeat;
@@ -491,9 +553,10 @@ a.nav-link.dropdown-toggle i{
   background: #FFFFFF1A;
 	border-radius: 30px;
 }
-.label{
-  min-width:120px;
-}
+ .label{
+  font-size: 20px;
+  font-weight: 500;
+ }
 .mb-30{
   margin-bottom: 30px;
 }
@@ -1006,4 +1069,19 @@ a.nav-link.dropdown-toggle i{
  .ico-section{
   z-index: 1;
   position: relative;
+ }
+ .secondary-outline-btn{
+  border: 1.5px solid #F763624D !important;
+  border-radius: 32px;
+  color:#F76362;
+  padding: 12px 36px;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+ }
+ .color-2EA{
+  color:#2EA8F2;
  }

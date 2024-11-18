@@ -294,6 +294,14 @@
   input{
     font-size: 14px;
   }
+  .label {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .border-gradient-3,.border-gradient-4 {
+    padding: 5px 12px;
+  }
+ 
 }
 
 
