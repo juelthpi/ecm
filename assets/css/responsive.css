@@ -288,6 +288,12 @@
     padding: 10px !important;
     font-size: 18px !important;
   }
+  .gradient-bg {
+    font-size: 14px;
+  }
+  input{
+    font-size: 14px;
+  }
 }
 
 

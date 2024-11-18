@@ -8,19 +8,44 @@ body {
   background-color:#040C17;
    
 }
+button{
+  background-color: transparent;
+  outline:none;
+  
+}
  
+.form-control:focus {
+  border-color:#fff;
+  background-color: transparent;
+	box-shadow: 0 0 0 0 transparent;
+}
+input{
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #e1e1e1;
+}
+ input:focus{
+ 
+  box-shadow:  0 0 0 0 transparent;
+ }
 p{
   font-size:18px;
   line-height: 30px;
   color:#FFFFFFCC;
 }
+ 
 .container{
   max-width: 1290px;
 }
 input {
   outline: none;
 }
- 
+.bg-16{
+  background-color:#161D27;
+}
+ .bg-F76362{
+  background-color:#F76362 !important;
+ }
 a,
 a:hover {
   text-decoration: none;
@@ -456,10 +481,21 @@ a.nav-link.dropdown-toggle i{
 	background: linear-gradient(263.49deg, #6902E7 14.4%, #2EA8F2 100%);
 	border-radius: 30px;
 }
+.gradient-bg{
+  color:#fff;
+  font-weight: 600;
+  background: linear-gradient(263.49deg, #6902E7 14.4%, #2EA8F2 100%);
+}
 .ico-progress .progress {
 	height:36px;
   background: #FFFFFF1A;
 	border-radius: 30px;
+}
+.label{
+  min-width:120px;
+}
+.mb-30{
+  margin-bottom: 30px;
 }
 .ico-progress .progress-bar span {
   font-size: 18px;
