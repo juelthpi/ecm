@@ -298,14 +298,19 @@
     font-size: 15px;
     font-weight: 500;
   }
-  .border-gradient-3,.border-gradient-4 {
-    padding: 5px 12px;
-  }
+ 
   .secondary-outline-btn {
     padding: 8px 32px;
     font-size: 16px;
   }
- 
+  .g-10 {
+    gap:5px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
 }
 
 

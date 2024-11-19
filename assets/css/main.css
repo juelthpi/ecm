@@ -17,13 +17,14 @@ button{
   outline: none;
   border: none;
   background-color: transparent;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   color: #FFFFFFB2;
  }
- .input-group input::placeholder{
-  opacity: 1;
- }
+ .input-group input::placeholder {
+	opacity: 1;
+	color: #dbdbdb;
+}
  .input-group input:focus{
   color:#fff;
  }
@@ -77,7 +78,7 @@ h1,h2,h3,h4,h5,h6{
   font-family: "Red Rose", serif;
 }
 .primary-btn,.secondary-btn {
-	padding: 12px 36px;
+	padding: 11px 36px;
 	color: #fff;
 	font-size: 18px;
 	font-weight: 500;
@@ -89,7 +90,7 @@ h1,h2,h3,h4,h5,h6{
   z-index: 9;
 }
 .secondary-btn{
-  padding: 13px 36px;
+  padding: 11px 36px;
 }
 .border-gradient:hover{
   /* background: linear-gradient(263.49deg, #6902E7 14.4%, #2EA8F2 100%); */
@@ -169,7 +170,7 @@ h1,h2,h3,h4,h5,h6{
   margin-top: 10px !important;
 }
 .mt-20{
-  margin-top: 20px;
+  margin-top:15px;
 }
 .mt-70{
   margin-top: 70px;
@@ -392,7 +393,7 @@ a.nav-link.dropdown-toggle i{
 	position: sticky;
 	left: 0;
 	right: 0;
-  padding: 10px 0;
+  padding:2px 0;
 	top:0px;
 	margin-bottom: -101px;
   z-index: 999;
@@ -440,13 +441,13 @@ a.nav-link.dropdown-toggle i{
 	background: linear-gradient(263.49deg, rgba(105, 2, 231, 0.16) 14.4%, rgba(46, 168, 242, 0.4) 100%);
 }
 .border-gradient-3 {
-	border-radius:10px;
+	border-radius:30px;
 	background: #0B121C;
-	border: 2px solid transparent;
+	border:4px solid transparent;
 	background-clip: padding-box;
 	position: relative;
   height: 100%;
-  padding:8px 12px;
+  padding:2px 12px;
 }
 .border-gradient-3::after {
 	content: '';
@@ -456,17 +457,17 @@ a.nav-link.dropdown-toggle i{
 	right: -2px;
   z-index: -5;
 	bottom: -2px;
-	border-radius:10px;
+	border-radius:30px;
 	background: linear-gradient(263.49deg, rgba(105, 2, 231, 0.16) 14.4%, rgba(46, 168, 242, 0.4) 100%);
 }
 .border-gradient-4 {
-	border-radius:10px;
+	border-radius:30px;
 	background: #0B121C;
 	border: 2px solid transparent;
 	background-clip: padding-box;
 	position: relative;
   height: 100%;
-  padding:8px 12px;
+  padding:2px 12px;
 }
 
 .border-gradient-4::after {
@@ -477,7 +478,7 @@ a.nav-link.dropdown-toggle i{
 	right: -2px;
   z-index: -5;
 	bottom: -2px;
-	border-radius:10px;
+	border-radius:30px;
 	background:  linear-gradient(263.49deg, rgba(105, 2, 231, 0.4) 14.4%, #2EA8F2 100%);
 }
  .text-copy-btn{
@@ -487,6 +488,8 @@ a.nav-link.dropdown-toggle i{
   border-radius: 50% !important;
   color: #fff;
   font-size: 15px;
+  position: absolute;
+  right:6px;
  
  }
 .hero-section{
@@ -506,7 +509,10 @@ a.nav-link.dropdown-toggle i{
   right: 0;
 }
 .p-30{
-  padding: 30px;
+  padding:15px 30px;
+}
+.g-8{
+  gap: 8px;
 }
 .g-30{
   gap: 30px;
@@ -523,7 +529,7 @@ a.nav-link.dropdown-toggle i{
   border-radius: 50%;
 }
 .mt-30{
-  margin-top: 30px;
+  margin-top:20px;
 }
 .line-1{
   height: 1px;
@@ -549,12 +555,12 @@ a.nav-link.dropdown-toggle i{
   background: linear-gradient(263.49deg, #6902E7 14.4%, #2EA8F2 100%);
 }
 .ico-progress .progress {
-	height:36px;
+	height:32px;
   background: #FFFFFF1A;
 	border-radius: 30px;
 }
  .label{
-  font-size: 20px;
+  font-size:15px;
   font-weight: 500;
  }
 .mb-30{
@@ -577,7 +583,7 @@ a.nav-link.dropdown-toggle i{
   cursor: pointer;
   opacity: 1;
   width: 100%;
-  padding: 16px 30px;
+  padding: 11px 30px;
   padding-left: 20px;
   background-color: transparent;
 }
@@ -591,7 +597,7 @@ a.nav-link.dropdown-toggle i{
   border-radius: 32px;
 }
 .pl-20{
-  padding-left:20px;
+  padding-left:10px;
 }
 .ecm-address h5{
   font-size: 24px;
@@ -1036,12 +1042,12 @@ a.nav-link.dropdown-toggle i{
   padding-bottom: 50px;
 }
 .xl-p-20{
-  padding:14px !important;
-  font-size: 22px !important;
+  padding:12px !important;
+  font-size:20px !important;
   border-radius: 40px;
 }
 .ecm-header ul li p{
-  font-size: 22px;
+  font-size:18px;
 }
 
 .hover-gradient:hover{
@@ -1074,9 +1080,9 @@ a.nav-link.dropdown-toggle i{
   border: 1.5px solid #F763624D !important;
   border-radius: 32px;
   color:#F76362;
-  padding: 12px 36px;
+  padding: 11px 36px;
   background-color: transparent;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 500;
   display: flex;
   align-items: center;
@@ -1085,3 +1091,44 @@ a.nav-link.dropdown-toggle i{
  .color-2EA{
   color:#2EA8F2;
  }
+.common-heading-section h5{
+  font-size:30px;
+  line-height: auto;
+}
+.clip-text {
+  width:95%;
+  transition: 0.5s;
+  white-space: nowrap; /* Prevents text from wrapping */
+  overflow: hidden; /* Hides overflow text */
+  text-overflow: ellipsis; /* Adds an ellipsis (…) for hidden text */
+  display: inline-block; /* Ensures the container fits its content */
+}
+.color-35{
+  color:#359846 !important;
+}
+.external-link-icon {
+	position: absolute;
+	right: 6px;
+	transition: 0.5s;
+	background: linear-gradient(263.49deg, #6902E7 14.4%, #2EA8F2 100%);
+	height: 32px;
+	width: 32px;
+	border-radius: 50% !important;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 15px;
+	top: 50%;
+	transform: translateY(-50%);
+	position: absolute;
+}
+.clip-text:hover{
+  color:#fff !important;
+}
+.border-1{
+  display: flex;
+  align-items: center;
+  padding: 11px 15px;
+  border: 1px solid #F763624D ;
+}
