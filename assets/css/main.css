@@ -1206,13 +1206,12 @@ a.nav-link.dropdown-toggle i{
  .featured-card-item .border-gradient-2,.featured-card-item .border-gradient-2:after{
   border-radius: 10px;
  }
-.featured-card-content ul li img{}
 .featured-card-content h4{
-  font-size: 24px;
+  font-size: 20px;
   margin-top: 10px;
   font-weight: 700;
   color:#fff;
-  line-height:30.4px;
+  line-height:28px;
 }
 .page-heading .border-gradient{}
 .page-heading .border-gradient:after{

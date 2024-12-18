@@ -48,6 +48,9 @@
   }
 }
 @media screen and (max-width: 991px) {
+  .page-heading span {
+    font-size: 15px;
+  }
   .featured-card-content h4 {
     font-size: 22px;
   }
@@ -55,7 +58,8 @@
     font-size: 14px;
   }
   .page-heading-section{
-    padding: 80px 0;
+    padding-top: 520px;
+    margin-top: -468px;
   }
   .page-heading h4 {
     margin-top: 10px;
